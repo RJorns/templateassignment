@@ -1,0 +1,23 @@
+<%- include('includes/header.ejs') %>
+  <link rel="stylesheet" href="/css/index.css">
+
+</head>
+<body>
+  <%- include('includes/navigation.ejs') %>
+
+  <h1>Hello from the Main Page</h1>
+
+  <main>
+    <% if (use.length > 0) { %>
+      <ul>
+        <h1>User</h1>
+      </ul>
+    <% } else { &>
+      <h1>Uh Oh No User!</h1>
+      <% } %>
+  </main>
+
+
+
+
+<%- include('includes/footer.ejs') %>

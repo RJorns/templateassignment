@@ -1,0 +1,20 @@
+.product-form {
+  width: 20em;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+button {
+  font: inherit;
+  border: 1px solid blue;
+  background: blue;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover,
+button:active {
+  background-color: white;
+  color: blue;
+}

@@ -1,0 +1,22 @@
+<%- include('includes/header.ejs') %>
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/forms.css">
+
+</head>
+<body>
+  <%- include('includes/navigation.ejs') %>
+  <h1>Add Users</h1>
+  <h3>Type in User Name below</h3>
+
+  <main>
+    <form class="product-form" action="/index/add-users" method="POST">
+      <div class="form-control">
+        <label for="title">Username</label>
+        <input type="text" name="title" id="title">
+      </div>
+      <button type="submit">Add User</button>
+    </form>
+  </main>
+
+
+<%- include('includes/footer.ejs') %>
